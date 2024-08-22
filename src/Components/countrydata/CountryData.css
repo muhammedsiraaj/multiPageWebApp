@@ -1,0 +1,14 @@
+.countriesBox{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.cardImage{
+    height: 12rem;
+}

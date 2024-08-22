@@ -1,0 +1,10 @@
+p{
+    text-align: center;
+    color: white;
+}
+.text{
+    text-decoration: none;
+}
+.text:hover{
+    font-weight: bold;
+}

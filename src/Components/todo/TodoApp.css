@@ -1,0 +1,69 @@
+.todoo{
+    background-image: url(../../Assets/andrew-neel-cckf4TsHAuw-unsplash.jpg);
+    height: 86.5vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.todo-container{
+    /* background-color: white; */
+    
+    width: 350px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    
+
+}
+
+.input-section{
+    background-color: #ececec;
+    padding: 18px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 2px 3px 10px #00000066;
+
+}
+.input-section input{
+    border-radius: 5px;
+    border: 1px solid silver;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+ul{
+    text-align: left;
+    padding-left: 32px;
+    padding-right: 32px;
+
+
+}
+ul li{
+    list-style: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #6b276b;
+    margin-bottom: 10px;
+    box-shadow: 2px 3px 5px #00000066;
+    display: flex;
+    color: #ececec;
+    
+}
+
+.lightbtn{
+    align-self: flex-end;
+    box-shadow: 2px 3px 5px #00000066;
+    margin-right: 8px;
+
+    
+}
+.too{
+ margin-bottom: 22px;
+ color: white;
+ text-shadow: 3px 3px 5px black;
+}

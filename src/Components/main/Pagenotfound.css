@@ -1,0 +1,26 @@
+.pagenotfound{
+    background-image: url(../../Assets/2148857191.jpg);
+    width: 100%;
+    height: 86.5vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    text-align: center;
+}
+.contentBox{
+    width: 950px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    border-radius: 10px;
+
+}
+.contentBox h1{
+    margin-bottom: 25px;
+    font-size: 50px;
+}
+.contentBox p{
+    color: black;
+}
