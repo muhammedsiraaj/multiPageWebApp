@@ -20,7 +20,7 @@ function CountryData() {
   return (
     <>
     <div className='countriesBox'>
-        <Button variant="dark" onClick={getData} >Get Country Datas</Button>{' '}
+        {/* <Button variant="dark" onClick={getData} >Get Country Datas</Button>{' '} */}
     </div>
     <div className='cards'>
     {cData.map((country,index)=> <CountryCard country = {country} key = {index}  />)}
